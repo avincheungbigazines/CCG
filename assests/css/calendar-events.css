@@ -132,21 +132,6 @@
     text-transform: uppercase;
     padding: 6px 10px;
     min-width: 250px;}
-.fc-left .btn{
-    border-radius: 0ch;
-    background-color: #496A9A;
-    font-weight: unset;
-    font-family: acumin-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.fc-right .btn{
-    border-radius: 0ch ;
-    font-weight: unset;
-    background-color: #496A9A;
-    font-family: acumin-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.fc-toolbar .disabled{
-    background-color: #CAD1D8;
-}
 .caltopbutton a{color: #fff;
     font-size: 14px;
     font-weight: 600;}
