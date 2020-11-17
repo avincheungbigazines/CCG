@@ -1,45 +1,43 @@
-﻿.calendar-box
-{
-    margin-bottom: 30px;	
+﻿.calendar-box {
+    margin-bottom: 30px;
 }
-.redborder
-{
-	border-bottom: 5px solid #D84200;
+
+.redborder {
+    border-bottom: 5px solid #D84200;
 }
-.blueborder
-{
-	border-bottom: 5px solid #1862E2;
+
+.blueborder {
+    border-bottom: 5px solid #1862E2;
 }
-.lightblueborder
-{
-	border-bottom: 5px solid #00ABBC;
+
+.lightblueborder {
+    border-bottom: 5px solid #00ABBC;
 }
-.purpleborder
-{
-	border-bottom: 5px solid #962DFF;
+
+.purpleborder {
+    border-bottom: 5px solid #962DFF;
 }
-.greenborder
-{
-	border-bottom: 5px solid #159E20;
+
+.greenborder {
+    border-bottom: 5px solid #159E20;
 }
-.calendarimg
-{
+
+.calendarimg {}
+
+.calendarimg img {
+    width: 100%;
 }
-.calendarimg img
-{
-	width:100%;
-}
-.calendardetails
-{
-	border-left: 2px solid #E5E5E5;
+
+.calendardetails {
+    border-left: 2px solid #E5E5E5;
     background: #fff;
     border-right: 2px solid #E5E5E5;
-	padding: 20px 20px;
-	min-height: 150px;
+    padding: 20px 20px;
+    min-height: 150px;
 }
-.caldatebox
-{
-	border: 3px solid #004F4D;
+
+.caldatebox {
+    border: 3px solid #004F4D;
     text-align: center;
     height: 85px;
     vertical-align: middle;
@@ -52,86 +50,262 @@
     min-width: 80px;
     padding: 0px 10px;
 }
-.caldatebox hr
-{
-	margin: 10px 0px;
-    border-top: 1px solid #004F4D;	
+
+.caldatebox hr {
+    margin: 10px 0px;
+    border-top: 1px solid #004F4D;
 }
-.caldetails
-{
-	color: #655E6B;
+
+.caldetails {
+    color: #655E6B;
     font-size: 16px;
     font-weight: 600;
 }
 
-.caleventtitle
-{
-	background: #FF893D;
+.caleventtitle {
+    background: #FF893D;
     color: #fff;
     font-size: 17px;
     font-weight: 600;
     text-align: left;
     padding: 6px 10px;
 }
-.caleventdetailbgwhite
-{
-	background: #fff;
+
+.caleventdetailbgwhite {
+    background: #fff;
     padding: 10px 10px;
     font-size: 16px;
     color: #333333;
-    font-weight: 400;    margin-top: 5px;
+    font-weight: 400;
+    margin-top: 5px;
 }
-.caleventdetailbggrey
-{
-	background: #CAD1D8;    margin-top: 5px;
+
+.caleventdetailbggrey {
+    background: #CAD1D8;
+    margin-top: 5px;
     padding: 10px 10px;
     font-size: 16px;
     color: #333333;
     font-weight: 400;
 }
-.caleventdetailbgwhiteblank{background: #fff;
+
+.caleventdetailbgwhiteblank {
+    background: #fff;
     padding: 12px 10px;
     font-size: 16px;
     color: #333333;
-    font-weight: 400;}
-	.caleventdetailbggreyblank{background: #CAD1D8;
+    font-weight: 400;
+}
+
+.caleventdetailbggreyblank {
+    background: #CAD1D8;
     padding: 12px 10px;
     font-size: 16px;
     color: #333333;
-    font-weight: 400;}
-	.section-news-events{margin-bottom:50px;}
-.topbuttons{list-style: none;
-    padding: 0;}
-.topbuttons li{    display: inline-block;
-    background: #CAD1D8;    padding: 6px 15px;
-    border-radius: 3px;    width: 32.33%;text-align: center;}
-.topwhitebg{font-size: 20px;
+    font-weight: 400;
+}
+
+.section-news-events {
+    margin-bottom: 50px;
+}
+
+.topbuttons {
+    list-style: none;
+    padding: 0;
+}
+
+.topbuttons li {
+    display: inline-block;
+    background: #CAD1D8;
+    padding: 6px 15px;
+    border-radius: 3px;
+    width: 32.33%;
+    text-align: center;
+}
+
+.topwhitebg {
+    font-size: 20px;
     background: #fff;
     color: #004F4D;
     line-height: 20px;
     text-align: center;
     padding: 6px 15px;
     border-radius: 3px;
-    font-weight: bold;}
-.topbuttons li a{color:#fff;font-size: 16px;
-    line-height: 16px;}
-.topbuttons li.active{background:#496A9A;}
-.latesttitle{color:#004F4D;font-size:24px;font-weight:bold;margin-top:0px;margin-bottom:20px;}
-.maincaldetailtopbox{    display: table;    margin-bottom: 30px;}
-.maincaldetailtopbox .caldetailtopright{    display: table-cell;
-    padding-left: 20px;}
-.caltopbox{color: #655E6B;
-    font-size: 17px;
-    font-weight: 500;}
-.caltopbox img{    margin-right: 10px;}
-.caltopdetail{color: #AEAEAE;
+    font-weight: bold;
+}
+
+.topbuttons li a {
+    color: #fff;
     font-size: 16px;
-    margin: 5px 0px;}
-.caltopbutton{    background: #004F4D;
+    line-height: 16px;
+}
+
+.topbuttons li.active {
+    background: #496A9A;
+}
+
+.latesttitle {
+    color: #004F4D;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.maincaldetailtopbox {
+    display: table;
+    margin-bottom: 30px;
+}
+
+.maincaldetailtopbox .caldetailtopright {
+    display: table-cell;
+    padding-left: 20px;
+}
+
+.caltopbox {
+    color: #655E6B;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.caltopbox img {
+    margin-right: 10px;
+}
+
+.caltopdetail {
+    color: #AEAEAE;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+.caltopbutton {
+    background: #004F4D;
     text-align: center;
     text-transform: uppercase;
     padding: 6px 10px;
-    min-width: 250px;}
-.caltopbutton a{color: #fff;
+    min-width: 250px;
+}
+
+.caltopbutton a {
+    color: #fff;
     font-size: 14px;
-    font-weight: 600;}
+    font-weight: 600;
+}
+
+
+/*HARDCODE!! coloring the event tag and the dot */
+
+.fc-event.fc-start.companyevent {
+    background-color: #1862E2;
+}
+
+.fc-event.fc-start.staffevent {
+    background-color: #D84200;
+}
+
+.fc-event.fc-start.corporateevent {
+    background-color: #00ABBC;
+}
+
+.fc-event.fc-start.publicevent {
+    background-color: #159E20;
+}
+
+.fc-event.fc-start.communityevent {
+    background-color: #962DFF;
+}
+
+.tagDot {
+        border-radius: 50%;
+        background-color: #FAFAFA;
+        height: 8px;
+        width: 8px;
+        display: inline-block;
+        margin-bottom: 2px;
+        margin-right: 8px;
+}
+
+
+/*Toolbar color font and shape*/
+
+.fc-toolbar.fc-header-toolbar {
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+
+.fc-toolbar.fc-header-toolbar .btn {
+    border-radius: 0px;
+    font-family: acumin-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #CAD1D8;
+}
+
+.fc-toolbar.fc-header-toolbar button.btn.btn-primary.active {
+    background-color: #496A9A !important;
+}
+
+
+/*Title - the month and year in hander of the calendar*/
+
+.fc-title {
+    color: #FAFAFA;
+    font-weight: normal;
+}
+
+.fc-center h2 {
+    color: #004F4D;
+    font-size: 24px;
+    margin-top: 12px;
+    padding-left: 120px;
+    text-transform: capitalize;
+}
+
+.breadcrumb {
+    text-transform: capitalize;
+}
+.eventIcon {
+    font-size: 12px;
+    padding: 3px 5px;
+    padding-top: 1px;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+    height: 6px;
+    width: 6px;
+    margin-right: 8px;
+    margin-left: 2px;   
+    margin-bottom: 2px; 
+  }
+  
+.fc-event.fc-start.companyevent .eventIcon {
+    color: #1862E2;
+}
+
+.fc-event.fc-start.staffevent .eventIcon{
+    color: #D84200;
+}
+
+.fc-event.fc-start.corporateevent .eventIcon{
+    color: #00ABBC;
+}
+
+.fc-event.fc-start.publicevent .eventIcon{
+    color: #159E20;
+}
+
+.fc-event.fc-start.communityevent .eventIcon{
+    color: #962DFF;
+}
+
+.fc-title{
+    margin-bottom: 13px;
+}
+/* .fc-content{
+    padding-top: 0px !important;
+    margin-top:  0px !important;
+
+} */
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number{
+    float: left;
+}
+.fc-day-header{
+    text-transform: uppercase;
+}
