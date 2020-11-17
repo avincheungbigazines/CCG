@@ -195,23 +195,23 @@
 
 /*HARDCODE!! coloring the event tag and the dot */
 
-.fc-event.fc-start.companyevent {
+.fc-event.companyevent {
     background-color: #1862E2;
 }
 
-.fc-event.fc-start.staffevent {
+.fc-event.staffevent {
     background-color: #D84200;
 }
 
-.fc-event.fc-start.corporateevent {
+.fc-event.corporateevent {
     background-color: #00ABBC;
 }
 
-.fc-event.fc-start.publicevent {
+.fc-event.publicevent {
     background-color: #159E20;
 }
 
-.fc-event.fc-start.communityevent {
+.fc-event.communityevent {
     background-color: #962DFF;
 }
 
@@ -274,23 +274,23 @@
     margin-bottom: 2px; 
   }
   
-.fc-event.fc-start.companyevent .eventIcon {
+.fc-event.companyevent .eventIcon {
     color: #1862E2;
 }
 
-.fc-event.fc-start.staffevent .eventIcon{
+.fc-event.staffevent .eventIcon{
     color: #D84200;
 }
 
-.fc-event.fc-start.corporateevent .eventIcon{
+.fc-event.corporateevent .eventIcon{
     color: #00ABBC;
 }
 
-.fc-event.fc-start.publicevent .eventIcon{
+.fc-event.publicevent .eventIcon{
     color: #159E20;
 }
 
-.fc-event.fc-start.communityevent .eventIcon{
+.fc-event.communityevent .eventIcon{
     color: #962DFF;
 }
 
