@@ -7803,7 +7803,7 @@
                             return (
                                 c.unshift("fc-day-grid-event", "fc-h-event"),
                                 t.isStart && (n = this.getTimeText(t.footprint)) && (h = '<span class="fc-time">' + a.htmlEscape(n) + "</span>"),
-                                (i = '<span class="fc-title">' + (a.htmlEscape(o.title || "") || "&nbsp;") + "</span>"),
+                                (i = '<span class="fc-title"><span class="eventIcon">PC</span>' + (a.htmlEscape(o.title || "") || "&nbsp;") + "</span>"),
                                 '<a class="' +
                                 c.join(" ") +
                                 '"' +

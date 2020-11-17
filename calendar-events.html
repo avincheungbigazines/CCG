@@ -197,9 +197,6 @@
             // ------------------------------------------------------ //
 
             jQuery(function () {
-                function addIcon() {
-                    $('.fc-content .fc-title').prepend('<span class="eventIcon">JC</span>');
-                }
                 // page is ready
                 jQuery('#calendar').fullCalendar({
                     themeSystem: 'bootstrap4',
@@ -212,7 +209,7 @@
                     header: {
                         left: 'today prev,next',
                         center: 'title',
-                        right: 'month,basicWeek,agendaDay'
+                        right: 'month,agendaWeek,agendaDay'
                     },
                     buttonText: {
                         prev: 'Previous',

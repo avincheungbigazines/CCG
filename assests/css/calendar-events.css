@@ -263,7 +263,7 @@
 }
 .eventIcon {
     font-size: 12px;
-    padding: 3px 5px;
+    padding: 3px;
     padding-top: 1px;
     border-radius: 50%;
     background-color: #FAFAFA;
@@ -307,4 +307,11 @@
 }
 .fc-day-header{
     text-transform: uppercase;
+}
+
+.btn-group .btn{
+    margin-left: 6px !important;
+}
+.fc-left .btn-group{
+    margin: 0px ;
 }
