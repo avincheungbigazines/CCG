@@ -272,6 +272,7 @@
     margin-right: 8px;
     margin-left: 2px;   
     margin-bottom: 2px; 
+    opacity: 90%;
   }
   
 .fc-event.companyevent .eventIcon {
@@ -314,4 +315,8 @@
 }
 .fc-left .btn-group{
     margin: 0px ;
+}
+
+.table-bordered{
+    border: 5px solid #F7F7F7;
 }
