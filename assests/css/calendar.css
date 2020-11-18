@@ -271,7 +271,7 @@ hr.fc-divider {
 .fc th,
 .fc td {
     border-style: solid;
-    border-width: 1px 4px 0 4px !important;
+    border-width: 1px 4px 0px 0px !important;
     padding: 0;
     border-color: #F7F7F7 !important;
     vertical-align: top;
@@ -1812,7 +1812,7 @@ h2 {
     font-family: 'Nunito', sans-serif;
     box-shadow: none !important;
     border: 0;
-    padding: 14px 18px !important;
+    padding: 14px 14px !important;
 }
 
 .btn:focus {
@@ -1863,7 +1863,7 @@ h2 {
 
 .eventtypes li {
     display: inline-block;
-    border-radius: 16px;
+    border-radius: 26px;
     color: #FAFAFA;
     font-size: 16px;
     padding: 10px 10px;

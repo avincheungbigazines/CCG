@@ -270,7 +270,7 @@
     height: 6px;
     width: 6px;
     margin-right: 8px;
-    margin-left: 2px;   
+    margin-left: -3px;   
     margin-bottom: 2px; 
     opacity: 90%;
   }
@@ -311,12 +311,29 @@
 }
 
 .btn-group .btn{
-    margin-left: 6px !important;
+    margin-left: 5px !important;
 }
 .fc-left .btn-group{
     margin: 0px ;
+
 }
 
 .table-bordered{
-    border: 5px solid #F7F7F7;
+    border-top: 2px solid #f7f7f7F7 !important;
+    border-left: 0px;
+}
+
+.btn-group{
+    background-color: #f7f7f7;
+}
+
+.calendar-selections-wrapper{
+    float: right;
+}
+.calendar-button{
+    padding-right: 0px !important;
+}
+.calendar-pull-down{
+    font-size: 6px;
+    color: #707070;
 }
