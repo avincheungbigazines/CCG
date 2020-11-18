@@ -341,3 +341,7 @@
     font-size: 6px;
     color: #707070;
 }
+
+.fc-sat .fc-day-number,.fc-sun .fc-day-number{
+    color: #D9321F;
+}
