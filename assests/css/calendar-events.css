@@ -311,11 +311,15 @@
 }
 
 .btn-group .btn{
-    margin-left: 5px !important;
+    margin-left: 7px !important;
+    padding: 10px 10px;
 }
 .fc-left .btn-group{
     margin: 0px ;
 
+}
+.fc-toolbar .fc-left .fc-next-button{
+    margin-right: 7px !important;
 }
 
 .table-bordered{
